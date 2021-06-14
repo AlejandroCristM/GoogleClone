@@ -10,10 +10,11 @@ html{
 
 header{
     margin-top: 2rem;
+    color: red;
 }
 
 nav ul{
-    font-family: Arial, sans-serif;
+    font-family: arial, sans-serif;
     padding: 0.6rem;
     font-size: 1.4rem;
     float: right;
@@ -27,6 +28,10 @@ nav ul li a{
     text-decoration: none;
     color: black;
     margin: 1rem;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
 }
 
 #appsIcon{
@@ -85,4 +90,67 @@ main section{
     height: 3.2rem;
     outline: none;
     font-size: 1.8rem;
+}
+
+#buttoms{
+    display: flex;
+    width: 20%;
+    margin-top: 2.5rem;
+    justify-content: space-evenly;
+}
+
+#buttoms input{
+    border-radius: 0.4rem;
+    padding:1rem;
+    border: none;
+}
+
+#googleOffered{
+    margin-top: 2.5rem;
+    font-size: 1.3rem;
+}
+
+#googleOffered a{
+    text-decoration: none;
+    color:#1a0dab;
+}
+
+#googleOffered a:hover{
+    text-decoration:underline;
+}
+
+footer{
+    background-color:#f2f2f2;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 13%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#countryFooter{
+    margin: 1.5rem;
+    border-bottom: 0.2rem solid #dadce0;
+}
+
+footer section{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.footers{
+    margin-left: 1.5rem;
+}
+
+.footers a{
+    margin-right: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.footers a:hover{
+    text-decoration: underline;
 }

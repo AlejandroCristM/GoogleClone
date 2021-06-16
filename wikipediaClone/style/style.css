@@ -1,0 +1,89 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    height: 9.5rem;
+    width: 100%;
+    text-align: center;
+    margin: 4rem auto 0.5rem;
+}
+
+header .header-letters-logo{
+    width: 17.6rem;
+    height: 3rem;
+}
+
+header .header-slogan{
+    font-size: 1.5rem;
+    font-family: Linux Libertine,Georgia,Times,serif;
+}
+
+header .logo-globe{
+    margin-top: 9rem;
+    width:20rem;
+    height: 18.3rem;
+}
+
+main{
+    width: 100%;
+    text-align: center;
+}
+
+main .main-container-languages{
+    width: 54.6rem;
+    height: 32.5rem;
+    margin:0 auto;
+}
+
+main .main-languages-pos1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 6rem;
+}
+
+main .main-languages-pos2{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0.5rem;
+}
+
+main .main-languages-pos3{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -0.5rem;
+}
+
+main .main-container-languages a{
+    color: #36c;
+    width: 15.6rem;
+    height: 4.5rem;
+    text-decoration: none;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Lato,Helvetica,Arial,sans-serif;
+    margin: 1rem 0; 
+}
+
+main .main-container-languages .language-articulos{
+    color: #54595d;
+    font-size: 1.3rem;
+}
+
+main .main-container-languages a:hover strong{
+    text-decoration: underline;
+}
+
+main .main-container-languages a:hover{
+    background-color: #eaecf0;
+}
+
+
+
